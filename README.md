@@ -1,6 +1,6 @@
 ## Object Detection Ensemble Toolkit
 
-TODO
+Parameter search-based ensemble method for object detection
 
 ## Requirements
 
@@ -11,7 +11,17 @@ The code is built with following libraries:
 
 ## Usage examples
 
-TODO
+```shell
+python nni_main.py
+```
+
+## TODO List
+- [x] Parameter search based on [NNI](https://github.com/microsoft/nni)
+- [ ] Multi-threading
+- [ ] Support multiple detection frameworks
+- [ ] More nms methods
+- [ ] Visualization
+- [ ] Instance segmentation
 
 
 ## Acknowledgements

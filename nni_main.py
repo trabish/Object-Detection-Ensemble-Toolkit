@@ -56,6 +56,7 @@ The tutorial consists of 4 steps:
 # Now we can define the search space as follow:
 
 search_space = {
+    'conf_type': {'_type': 'choice', '_value': ['avg', 'max', 'box_and_model_avg', 'absent_model_aware_avg']},
     'iou_thr': {'_type': 'quniform', '_value': [0.05, 0.9, 0.05]},
     'skip_iou_thr': {'_type': 'quniform', '_value': [0.01, 0.2, 0.02]},
     'w0': {'_type': 'quniform', '_value': [0, 1, 0.1]},

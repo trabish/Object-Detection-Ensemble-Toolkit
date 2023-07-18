@@ -17,7 +17,7 @@ import nni
 params = {
     'skip_box_thr': 0.14,
     'iou_thr': 0.75,
-    'conf_type': 'max',
+    'conf_type': 'avg',
     'w0': 0.6,
     'w1': 0.6,
     'w2': 0.7,
